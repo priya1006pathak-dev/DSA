@@ -3,7 +3,8 @@ using namespace std;
 
 void selectionSort(int arr[],int n){
   
-for(int i=0; i<1; i++){
+// for(int i=0; i<1; i++){
+   for(int i=0; i<=0; i++){
        int minIndex = i;
 
 
@@ -14,8 +15,8 @@ for(int i=0; i<1; i++){
     swap(arr[minIndex] , arr[i]);
 }
    
-
 }
+// }
 int main(){
  int n ;
  cout << "Enter array n:" << endl;
