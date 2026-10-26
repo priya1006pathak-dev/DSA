@@ -2,14 +2,25 @@
 
  #include<iostream>
  using namespace std;
+  // void  pairSwap(int arr[], int n){
+  //   for(int i=0; i<n; i+=2){
+  //       int temp = arr[i];
+  //       arr[i] = arr[i+1];
+  //       arr[i+1] = temp;
+
+  //   }
+  // }
+
+  
   void  pairSwap(int arr[], int n){
     for(int i=0; i<n; i+=2){
-        int temp = arr[i];
-        arr[i] = arr[i+1];
-        arr[i+1] = temp;
-
+      for(int j=0; j<n; j++){
+        if(i+1 < n){
+          swap(arr[i] , arr[i+1]);
+        }
+      }
     }
-  }
+    }
 
 
  int main(){
